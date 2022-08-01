@@ -1,8 +1,6 @@
 import pickle
 import streamlit as st
 
-from PIL import Image
-
 
 with open('Heart_failure_pickle_model', 'rb') as file:
     loaded_model = pickle.load(file)
