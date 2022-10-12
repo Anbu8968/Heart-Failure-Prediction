@@ -49,10 +49,10 @@ output=loaded_model.predict([[age,anaemia,creatine_phosphokinase,diabetes,ejecti
 if st.sidebar.button("Predict"):
     if output==[1]:
         st.image("heart-failure.jpg",width=400,use_column_width=300)
-        st.subheader("...........................Death conform da Sambu Mavanae!!!! ")
+        st.subheader("You are going to die so Sad!!!! ")
     else:
         st.image("heart_fail.jpg",width=400,use_column_width=300)
-        st.subheader("...............You are safe da Sambu Mavanae............")
+        st.subheader("You are Safe now BE HAPPY !!!")
 
 
 import base64
